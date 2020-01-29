@@ -1,0 +1,240 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass 
+{
+    
+}
+
+
+#AnchorPane
+{
+-fx-background-image : url("underWateMine.gif");
+-fx-background-size: cover;
+}
+
+.buttons
+{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+     -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("EmptySquare.bmp");
+    -fx-background-size: cover;
+}
+
+.playAgain
+{
+      -fx-background-color: black; 
+    -fx-text-fill: red;
+    -fx-background-radius: 2em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 5, 10, 0, 0);
+}
+
+.playAgain:hover,  .playAgain:focus
+{
+        -fx-background-color: red;
+        -fx-text-fill: black;
+        -fx-scale-x:1.1;
+        -fx-scale-y:1.1;
+        -fx-font-weight: bold;
+    }
+    
+.emptySquare
+{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+     -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("emptySquare2.bmp");
+    -fx-background-size: cover;
+}
+.oneMine
+{
+       -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+     -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+        -fx-background-image:url("oneMine.bmp");
+    -fx-background-size: cover;
+}
+
+.twoMine
+{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("twoMine.bmp");
+    -fx-background-size: cover; 
+}
+
+.threeMine
+{
+        -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("threeMine.bmp");
+    -fx-background-size: cover; 
+}
+
+.fourMine
+{
+        -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("fourMine.bmp");
+    -fx-background-size: cover; 
+}
+.fiveMine
+{
+        -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("fiveMine.bmp");
+    -fx-background-size: cover; 
+}
+
+.sixMine
+{
+        -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("sixMine.bmp");
+    -fx-background-size: cover; 
+}
+.sevenMine
+{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("sevenMine.bmp");
+    -fx-background-size: cover; 
+}
+
+.eightMine
+{
+      -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("eightMine.bmp");
+    -fx-background-size: cover;  
+}
+
+.boMine
+{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("boMine.bmp");
+    -fx-background-size: cover;  
+}
+
+.wiMine
+{
+       -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("wiMine.bmp");
+    -fx-background-size: cover;  
+}
+
+
+.Marked
+{
+       -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("Marked.bmp");
+    -fx-background-size: cover;  
+}
+
+.Shield
+{
+       -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 1em; /* 12 */
+    -fx-text-fill: #828282;
+    -fx-pref-height: 25px;
+    -fx-pref-width: 25px;
+    -fx-background-image:url("shield.png");
+    -fx-background-size: cover;  
+}

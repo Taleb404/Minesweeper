@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="437.0" prefWidth="604.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MineGui.OprtionMenuController">
+    <stylesheets>
+        <URL value="@oprtionmenu.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="gridwidthfield" alignment="CENTER" blendMode="EXCLUSION" layoutX="416.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="158.0" text="8">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="27.0" />
+         </font>
+      </TextField>
+      <Label layoutX="33.0" layoutY="84.0" text="Grid Height" textFill="RED">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <TextField fx:id="gridheightfield" alignment="CENTER" blendMode="EXCLUSION" layoutX="416.0" layoutY="82.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="158.0" text="8">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="23.0" />
+         </font>
+      </TextField>
+      <Label layoutX="33.0" layoutY="16.0" text="Grid Width" textFill="RED">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <TextField fx:id="minesNumber" alignment="CENTER" blendMode="EXCLUSION" layoutX="416.0" layoutY="156.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="158.0" text="5">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="23.0" />
+         </font>
+      </TextField>
+      <Label layoutX="33.0" layoutY="158.0" text="Number Of Mines" textFill="RED">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <Button layoutX="46.0" layoutY="375.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="33.0" prefWidth="139.0" styleClass="mainmenubuttons" text="Save" />
+      <Button layoutX="419.0" layoutY="375.0" mnemonicParsing="false" onAction="#AdvancedSettings" prefHeight="33.0" prefWidth="139.0" styleClass="mainmenubuttons" text="Advanced Setting" />
+      <TextField id="shieldsNumber" fx:id="shieldsNumber" alignment="CENTER" blendMode="EXCLUSION" layoutX="416.0" layoutY="219.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="51.0" text="0">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="23.0" />
+         </font>
+      </TextField>
+      <Label layoutX="25.0" layoutY="220.0" text="P1,P2 Shields" textFill="RED">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <Label layoutX="25.0" layoutY="281.0" text="Enable Shields for AutoPlayer" textFill="RED">
+         <font>
+            <Font name="Forte" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+      <TextField id="shieldsNumber" fx:id="shieldsNumber2" alignment="CENTER" blendMode="EXCLUSION" layoutX="523.0" layoutY="219.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="51.0" text="0">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="23.0" />
+         </font>
+      </TextField>
+      <CheckBox id="autoPlayerSheild" fx:id="autoPlayerSheild" blendMode="EXCLUSION" layoutX="484.0" layoutY="285.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="23.0" />
+      <TextField id="TurnTime" fx:id="TurnTime" alignment="CENTER" blendMode="EXCLUSION" layoutX="415.0" layoutY="320.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="158.0" text="10">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+         <font>
+            <Font name="Forte" size="23.0" />
+         </font>
+      </TextField>
+      <Label layoutX="32.0" layoutY="322.0" text="Turn Time" textFill="RED">
+         <font>
+            <Font name="Forte" size="37.0" />
+         </font>
+         <effect>
+            <DropShadow spread="1.0" />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MineGui.AdvancedSettingController">
+    <stylesheets>
+        <URL value="@advancedsetting.css" />
+    </stylesheets>
+   <children>
+      <TextField fx:id="emptySquareScore" alignment="CENTER" blendMode="EXCLUSION" layoutX="398.0" layoutY="22.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="173.0" text="10">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="22.0" prefHeight="25.0" prefWidth="294.0" text="Empty Square" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="48.0" layoutY="330.0" mnemonicParsing="false" onAction="#Save" prefHeight="33.0" prefWidth="139.0" styleClass="mainmenubuttons" text="Save" />
+      <TextField fx:id="withmine" alignment="CENTER" blendMode="EXCLUSION" layoutX="398.0" layoutY="54.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="173.0" text="5">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="54.0" prefHeight="25.0" prefWidth="294.0" text="Mark Square With Mine" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="wihtoutmine" alignment="CENTER" blendMode="EXCLUSION" layoutX="398.0" layoutY="89.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="173.0" text="-1">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="89.0" prefHeight="25.0" prefWidth="285.0" text="Mark Square without a Mine" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="autoreveal" alignment="CENTER" blendMode="EXCLUSION" layoutX="398.0" layoutY="121.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="173.0" text="1">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="121.0" prefHeight="25.0" prefWidth="294.0" text="Auto Reveal" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="notmarkedmine" alignment="CENTER" blendMode="EXCLUSION" layoutX="398.0" layoutY="153.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="173.0" text="100">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="153.0" prefHeight="25.0" prefWidth="294.0" text="Not Marked Mine" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="onem" alignment="CENTER" blendMode="EXCLUSION" layoutX="398.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="1">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="188.0" prefHeight="25.0" prefWidth="294.0" text="Numbered Squares Scores :" textFill="#f6ff00">
+         <font>
+            <Font name="Tahoma" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="twom" alignment="CENTER" blendMode="EXCLUSION" layoutX="419.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="2">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="threem" alignment="CENTER" blendMode="EXCLUSION" layoutX="440.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="3">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="fourm" alignment="CENTER" blendMode="EXCLUSION" layoutX="461.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="4">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="fivem" alignment="CENTER" blendMode="EXCLUSION" layoutX="482.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="5">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="sixm" alignment="CENTER" blendMode="EXCLUSION" layoutX="503.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="6">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="sevenm" alignment="CENTER" blendMode="EXCLUSION" layoutX="524.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="7">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="eightm" alignment="CENTER" blendMode="EXCLUSION" layoutX="545.0" layoutY="188.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="25.0" prefWidth="21.0" text="8">
+         <opaqueInsets>
+            <Insets left="100.0" />
+         </opaqueInsets>
+      </TextField>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="233.0" prefHeight="25.0" prefWidth="323.0" text="Enable Autor Reveal" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="enableautoreveal" blendMode="DIFFERENCE" layoutX="466.0" layoutY="233.0" mnemonicParsing="false" selected="true" textFill="RED">
+         <font>
+            <Font name="Forte" size="18.0" />
+         </font>
+      </CheckBox>
+      <Label blendMode="COLOR_DODGE" layoutX="30.0" layoutY="279.0" prefHeight="25.0" prefWidth="323.0" text="Show All Mines When Lose" textFill="RED">
+         <font>
+            <Font name="Forte" size="19.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="showallminesonlose" blendMode="DIFFERENCE" layoutX="466.0" layoutY="279.0" mnemonicParsing="false" selected="true" textFill="RED">
+         <font>
+            <Font name="Forte" size="18.0" />
+         </font>
+      </CheckBox>
+   </children>
+</AnchorPane>

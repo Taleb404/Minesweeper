@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="482.0" prefWidth="643.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MineGui.GuiGameController">
+    <stylesheets>
+        <URL value="@maingame.css" />
+    </stylesheets>
+   <children>
+      <Label id="ScoreLabel" fx:id="ScoreLabel" blendMode="OVERLAY" layoutX="30.0" layoutY="99.0" text="Score : ">
+         <font>
+            <Font name="Forte" size="31.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#a800db" />
+                  <Stop color="#94f2ff" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <DropShadow radius="9.940000000000001" spread="0.96" width="20.76" />
+         </effect></Label>
+      <GridPane id="myGridPane" fx:id="myGridPane" blendMode="HARD_LIGHT" layoutX="22.292892456054688" layoutY="63.29289245605469">
+     
+      </GridPane>
+      <HBox id="winandlosehbox" fx:id="winandlosehbox" layoutX="14.0" layoutY="14.0" prefHeight="35.0" prefWidth="530.0" spacing="20.0" visible="false">
+         <children>
+            <Label id="ScoreLabel" fx:id="winandloselabel" prefHeight="35.0" prefWidth="258.0" text="The player one Lose" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="Forte" size="31.0" />
+               </font>
+            </Label>
+            <Button mnemonicParsing="false" onAction="#playAgainButton" prefHeight="42.0" prefWidth="134.0" styleClass="playAgain" text="Play Again" textAlignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+         </children>
+      </HBox>
+      <HBox id="shileds1" layoutX="8.0" layoutY="335.0" prefHeight="35.0" prefWidth="258.0">
+         <children>
+            <ImageView fitHeight="33.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@shield.png" />
+               </image>
+            </ImageView>
+            <Label id="shields1label" fx:id="shields1label" prefHeight="35.0" prefWidth="258.0" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="Forte" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox id="shileds2" fx:id="shileds2" layoutX="8.0" layoutY="386.0" prefHeight="35.0" prefWidth="258.0">
+         <children>
+            <ImageView fitHeight="33.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@shield.png" />
+               </image>
+            </ImageView>
+            <Label id="shields2label" fx:id="shields2label" prefHeight="35.0" prefWidth="258.0" textAlignment="CENTER" textFill="RED">
+               <font>
+                  <Font name="Forte" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label id="TimeLabel" fx:id="TimeLabel" blendMode="OVERLAY" layoutX="506.0" layoutY="14.0" text="Time :">
+         <font>
+            <Font name="Forte" size="31.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#72d900" />
+                  <Stop color="RED" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <DropShadow radius="9.940000000000001" spread="0.96" width="20.76" />
+         </effect>
+      </Label>
+      <Button layoutX="14.0" layoutY="429.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="125.0" text="Save Game" />
+      <Button fx:id="backbutton" layoutX="154.0" layoutY="429.0" mnemonicParsing="false" onAction="#playAgainButton" prefHeight="25.0" prefWidth="125.0" text="Back To MainMenu" />
+   </children>
+</AnchorPane>

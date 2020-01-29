@@ -1,0 +1,50 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass 
+{
+ 
+}
+
+#AnchorPane
+{
+-fx-background-image : url("underWateMine.gif");
+-fx-background-size: cover;
+}
+#logoimage
+{
+        -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 10, 0, 0);
+}
+
+#myNewGameButton
+{
+    -fx-background-color: #0066ff;
+    -fx-text-fill: white;
+    -fx-background-radius: 5em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 10, 10, 10);
+}
+
+#myNewGameButton:hover
+{
+    -fx-background-color: #3399ff; 
+        -fx-text-fill: black;
+            -fx-background-radius: 5em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 10, 10, 10);
+    }
+    
+  .mainmenubuttons
+  {
+          -fx-background-color: #0066ff;
+    -fx-text-fill: white;
+    -fx-background-radius: 5em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 10, 10, 10);
+  }
+  
+  .mainmenubuttons:hover
+{
+    -fx-background-color: #3399ff; 
+        -fx-text-fill: black;
+            -fx-background-radius: 5em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 10, 10, 10);
+    }

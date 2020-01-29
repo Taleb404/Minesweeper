@@ -1,0 +1,30 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+
+
+#AnchorPane
+{
+-fx-background-image : url("underWateMine.gif");
+-fx-background-size: cover;
+}
+
+  .mainmenubuttons
+  {
+          -fx-background-color: #0066ff;
+    -fx-text-fill: white;
+    -fx-background-radius: 5em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 10, 10, 10);
+  }
+  
+  .mainmenubuttons:hover
+{
+    -fx-background-color: #3399ff; 
+        -fx-text-fill: black;
+            -fx-background-radius: 5em;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 10, 10, 10);
+    }
